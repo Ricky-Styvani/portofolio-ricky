@@ -1,0 +1,48 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+  background-image: url(../img/bacground.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -10px;
+  overflow: hidden;
+}
+.jumbotron img {
+  opacity: 0;
+  transform: translate(0, -30px) rotate(15deg);
+  transition: 1s;
+}
+.jumbotron img.imgMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+#projects {
+  background-color: #e2edff;
+}
+.projects .thumbnail {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: 0.5s;
+}
+.projects .thumbnail.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.pKanan,
+.pKiri {
+  opacity: 0;
+  transform: translate(-50px, 0) rotate(15deg);
+  transition: 1s;
+}
+.pKanan {
+  transform: translate(50px, 0) rotate(-15deg);
+}
+.pKanan.pMuncul,
+.pKiri.pMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+section {
+  padding-top: 5rem;
+}
