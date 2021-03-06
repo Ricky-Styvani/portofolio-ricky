@@ -1,7 +1,3 @@
-$(window).on("load", function () {
-  $(".jumbotron img").addClass("imgMuncul");
-});
-
 $(window).scroll(function () {
   var pScroll = $(this).scrollTop();
   //jumbotro
