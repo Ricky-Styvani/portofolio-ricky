@@ -7,15 +7,6 @@
   background-position: 0 -10px;
   overflow: hidden;
 }
-.jumbotron img {
-  opacity: 0;
-  transform: translate(0, -30px) rotate(15deg);
-  transition: 1s;
-}
-.jumbotron img.imgMuncul {
-  opacity: 1;
-  transform: translate(0, 0);
-}
 #projects {
   background-color: #e2edff;
 }
